@@ -2,7 +2,7 @@
 
 Gilded Rose is a refactoring kata.  It demonstrates how to deal with legacy code ie. code with no tests and difficult to maintain.
 
-# Up and running
+## Up and running
 
 ```
 yarn
@@ -11,8 +11,6 @@ yarn
 I've included the golden master test but haven't included the snapshot so running `yarn test` for the first time will generate the snapshot.
 
 Run `yarn start` to see the output in the browser.
-
-# Gilded Rose Kata
 
 ## Gilded Rose Requirements Specification
 
