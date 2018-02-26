@@ -8,10 +8,3 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
-
-it('renders tree', () => {
-    const tree = renderer
-        .create(<App />);
-
-    expect(tree).toMatchSnapshot();
-});
