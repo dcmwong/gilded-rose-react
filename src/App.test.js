@@ -9,7 +9,7 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('renders tree', () => {
+it('golden master test', () => {
     const tree = renderer
         .create(<App />);
 
